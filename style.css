@@ -1,0 +1,85 @@
+.background {
+    background-color: #a0442a;
+    background-image: url(./leaves.webp);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.standout-text {
+    color: #d09972;
+}
+
+.pfp {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+.plants-box {
+    background: #e9e3dc;
+    width: 75%;
+    margin: auto;
+}
+
+.plants {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.squirrel {
+    width: 100px;
+}
+
+.plants-caption {
+    background: #e9e3dc;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px; 
+}
+
+.text-box {
+    background: #5e211c;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 20px 20px;
+    width: 70%;
+    color: #e2c3b0;
+    font-size: 15px;
+}
+
+.seasons {
+    line-height: 2;
+    height: 33vh;
+}
+
+.stats {
+    line-height: 1;
+    height: 23vh; 
+}
+
+
+.hide {
+    display: none;
+    height: 0px;
+}
+  
+.show:hover + .hide {
+    display: block;
+    position: relative;
+    left: 500px;
+    bottom: 180px;
+}
